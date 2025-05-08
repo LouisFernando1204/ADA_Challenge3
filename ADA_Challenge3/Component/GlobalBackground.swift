@@ -7,12 +7,21 @@
 
 import SwiftUI
 
-struct GlobalBackground: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+struct GlobalBackground: ViewModifier {
+    func body(content: Content) -> some View {
+        ZStack {
+            LinearGradient(
+                gradient: Gradient(colors: [
+                    Color("Blue_90e0ef"),
+                    Color("Blue_caf0f8"),
+                    Color(.systemGray6),
+                    Color(.systemGray6)
+                ]),
+                startPoint: .topLeading,
+                endPoint: .bottomTrailing
+            )
+            .ignoresSafeArea()
+            content
+        }
     }
-}
-
-#Preview {
-    GlobalBackground()
 }

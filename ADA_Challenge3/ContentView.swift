@@ -9,13 +9,25 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        TabView {
+            ProfileView()
+                .tabItem {
+                    Image(systemName: "person.circle.fill")
+                    Text("Profile")
+                }
+            JourneyView()
+                .tabItem {
+                    Image(systemName: "map.fill")
+                    Text("Journey")
+                }
         }
-        .padding()
+        .accentColor(Color("Blue_00b4d8"))
+        .onAppear {
+            let appearance = UITabBarAppearance()
+            appearance.backgroundColor = UIColor(Color.white.opacity(0.05))
+            UITabBar.appearance().standardAppearance = appearance
+            UITabBar.appearance().scrollEdgeAppearance = appearance
+        }
     }
 }
 
