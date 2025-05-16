@@ -6,10 +6,6 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		648FFA902DD4F48800D591C2 /* OpenAISwift in Frameworks */ = {isa = PBXBuildFile; productRef = 648FFA8F2DD4F48800D591C2 /* OpenAISwift */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXContainerItemProxy section */
 		64425C7E2DCC3F9600DC3EEC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -56,7 +52,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				648FFA902DD4F48800D591C2 /* OpenAISwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,7 +112,6 @@
 			);
 			name = ADA_Challenge3;
 			packageProductDependencies = (
-				648FFA8F2DD4F48800D591C2 /* OpenAISwift */,
 			);
 			productName = ADA_Challenge3;
 			productReference = 64425C702DCC3F9400DC3EEC /* ADA_Challenge3.app */;
@@ -202,7 +196,6 @@
 			mainGroup = 64425C672DCC3F9400DC3EEC;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				648FFA8E2DD4F48800D591C2 /* XCRemoteSwiftPackageReference "OpenAISwift" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 64425C712DCC3F9400DC3EEC /* Products */;
@@ -569,25 +562,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		648FFA8E2DD4F48800D591C2 /* XCRemoteSwiftPackageReference "OpenAISwift" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/adamrushy/OpenAISwift";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.4.1;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		648FFA8F2DD4F48800D591C2 /* OpenAISwift */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 648FFA8E2DD4F48800D591C2 /* XCRemoteSwiftPackageReference "OpenAISwift" */;
-			productName = OpenAISwift;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 64425C682DCC3F9400DC3EEC /* Project object */;
 }
