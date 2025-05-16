@@ -26,7 +26,7 @@ class OpenAIViewModel: ObservableObject {
         request.addValue("application/json", forHTTPHeaderField: "Content-Type")
         
         let body: [String: Any] = [
-            "model": "gpt-4o",
+            "model": "gpt-3.5-turbo",
             "messages": [
                 ["role": "system", "content": "You are an expert personality evaluation assistant. Your job is to objectively and thoroughly assess MBTI-based personality compatibility between individuals, providing clear, friendly, and well-structured analysis. Do not guess or assume things beyond the given user answers."],
                 ["role": "user", "content": prompt]
