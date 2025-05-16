@@ -30,11 +30,11 @@ struct ContentView: View {
                 }
         }
         .accentColor(colorScheme == .light ? Color("Blue_00b4d8") : Color("Blue_0077b6"))
-//        .onAppear {
-//            DispatchQueue.main.asyncAfter(deadline: .now() + 0) {
-//                MusicPlayerComponent.shared.startBackgroundMusic(musicTitle: "WeGoTogether", volume: 1)
-//            }
-//        }
+        .onAppear {
+            DispatchQueue.main.asyncAfter(deadline: .now() + 0) {
+                MusicPlayerComponent.shared.startBackgroundMusic(musicTitle: "WeGoTogether", volume: 1)
+            }
+        }
         .onDisappear {
             MusicPlayerComponent.shared.stopBackgroundMusic()
         }
