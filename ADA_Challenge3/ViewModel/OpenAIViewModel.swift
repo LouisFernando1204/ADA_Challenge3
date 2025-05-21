@@ -10,7 +10,7 @@ import Foundation
 class OpenAIViewModel: ObservableObject {
     static let shared = OpenAIViewModel()
     
-    private let apiKey = "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"
+    private let apiKey = PrivateKey.shared.openai_apikey
     
     private init() {}
     
