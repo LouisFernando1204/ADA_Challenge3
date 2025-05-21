@@ -42,6 +42,7 @@ Dive into Bella’s career and daily life as a 3D modeler:
     <img src="https://drive.google.com/uc?id=1Lr_Z-2xVLSwQrMyXzE65jGQcmXud4TIq" alt="Screenshot 7" style="width: 30%;"/> 
     <img src="https://drive.google.com/uc?id=18pdBMBVwZbg0Oq6KCkGiJakj5qoqqqag" alt="Screenshot 8" style="width: 30%;"/> 
     <img src="https://drive.google.com/uc?id=1-k3KbRkFRA2Bo6ywQMsmL3Ib6Dgs4swZ" alt="Screenshot 9" style="width: 30%;"/> 
+    <img src="https://drive.google.com/uc?id=1MwCxcyC94te-OddCu6XMjGmXd5HGcSsD" alt="Screenshot 9" style="width: 30%;"/> 
 </div>  
 
 ## 👨‍💻 Creator
